@@ -1,7 +1,7 @@
 - NOM : BONDY
 - PRÉNOM : Gaspard
-- URL du site :
-- URL FIGMA :
+- URL du site : https://back-to-back.gaspardbondy.fr
+- URL FIGMA : https://www.figma.com/file/VZLlIAqHRyjLngTtkXxYOZ/Maquettes-projet-individuel-%E2%80%94-Gaspard-BONDY?node-id=0%3A1&t=ptO5fBH28XwxfhuU-1
 
 # Structure de départ pour le projet individuel.
 
