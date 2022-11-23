@@ -1,0 +1,15 @@
+:root {
+/* Color styles */
+--rouge-clair: #BE1C1C;
+--gris-fonce: #252424;
+--blanc: #FFFDFD;
+--rouge-fonce-: #6E0D0D;
+--rouge-fonce: #881010;
+
+/* Text-size styles */
+/* base size: mulish-regular-18px (18px) */
+--mulish-regular-18px: 1rem;
+--mulish-bold-18px: 1rem;
+--mulish-extra-bold-28px: 1.56rem;
+--rubik-extra-bold-70px: 3.89rem;
+}
