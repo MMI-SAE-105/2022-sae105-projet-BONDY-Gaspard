@@ -4,7 +4,35 @@
 *::after {
     box-sizing: border-box;
 }
+/* Header */
 
 header {
     background-color: #881010;
+}
+/* Footer */
+
+footer {
+    background-color: #252424;
+}
+
+.h5-footer {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.h4-footer {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.liens-footer {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
 }
