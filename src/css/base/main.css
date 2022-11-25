@@ -13,6 +13,7 @@ header {
 
 footer {
     background-color: #252424;
+    display: grid;
 }
 
 .h5-footer {
