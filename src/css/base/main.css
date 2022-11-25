@@ -36,4 +36,22 @@ footer {
     font-weight: 400;
     font-size: 15px;
     text-decoration: none;
+    list-style-type: none;
+}
+
+.mailto-footer {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    opacity: 50%;
+}
+
+.p-footer {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
 }

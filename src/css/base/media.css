@@ -2,3 +2,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Footer */
+
+.icone_btb_footer {
+    display: block;
+    margin: auto;
+}
+
+.icone_mmi_footer {
+    display: block;
+    text-align: center;
+    
+}
