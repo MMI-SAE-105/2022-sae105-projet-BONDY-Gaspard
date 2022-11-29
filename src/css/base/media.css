@@ -6,8 +6,9 @@ img {
 /* Footer */
 
 .icone_btb_footer {
-    display: block;
-    margin: auto;
+    display: flex;
+    margin-left: 150px;
+    
 }
 
 .icone_mmi_footer {

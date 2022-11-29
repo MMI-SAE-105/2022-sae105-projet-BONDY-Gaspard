@@ -1,0 +1,15 @@
+/* Header */
+
+header {
+    background-color: var(--rouge-fonce);
+}
+
+.home-header {
+    display: block;
+    margin-left: 5%;
+}
+
+.menu-header {
+    display: block;
+    margin: auto;
+}

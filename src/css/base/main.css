@@ -7,51 +7,5 @@
 /* Header */
 
 header {
-    background-color: #881010;
-}
-/* Footer */
-
-footer {
-    background-color: #252424;
-}
-
-.h5-footer {
-    color: #FFFFFF;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.h4-footer {
-    color: #FFFFFF;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    opacity: 50%;
-}
-
-.liens-footer {
-    color: #FFFFFF;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.mailto-footer {
-    color: #FFFFFF;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    text-decoration: none;
-    opacity: 50%;
-}
-
-.p-footer {
-    color: #FFFFFF;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: center;
+    background-color: var(--rouge-fonce);
 }
