@@ -28,6 +28,25 @@ img {
     border-radius: 5%;
 }
 
+.boutton-right-article-fr {
+    background-color: #BE1C1C;
+    text-align: center;
+    color: #FFFDFD;
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: #6E0D0D;
+    position: absolute;
+    margin-top: -53px;
+    margin-left: 95px;
+    cursor: pointer;
+
+}
+
+.boutton-right-article-fr:hover {
+    background-color: #6E0D0D;
+  }
 /* Footer */
 
 .icone_btb_footer {
