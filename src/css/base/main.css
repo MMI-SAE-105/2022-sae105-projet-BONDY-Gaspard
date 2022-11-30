@@ -5,128 +5,36 @@
     box-sizing: border-box;
 }
 
-/* Header Variation */
+/* Page d'accueil FR */
 
-.round-header {
-    display: block;
-    margin: auto;
-}
-
-.h1-header {
-    display: block;
-    color: #FFFFFF;
+.intro-accueil-fr {
     font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    text-align: center;
-
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
 }
 
-.element-header {
-    position: relative;
-    height: 10rem;
-    left: 35%;
-}
-
-.element-header-image {
+.texte-article-right-accueil-fr {
     position: absolute;
+    font-family: 'Mulish', sans-serif;
+    color: #FFFDFD;
+    font-size: 18px;
+    font-weight: 700;
+    left: 88px;
+    margin-top: -59%;
+    text-shadow: 0px 2.5px 2px black;
 }
 
-/* Variation Header 1*/
-
-.element-header-texte-1 {
+.texte-article-left-accueil-fr {
     position: absolute;
-    rotate: -6deg;
-    bottom: 72px;
-    right: 265px;
-    font-size: 12px;
-}
+    font-family: 'Mulish', sans-serif;
+    color: #FFFDFD;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -58.5%;
+    margin-right: 80px;
+    margin-left: 2.5px;
+    text-shadow: 0px 2.5px 2px black;
 
-/* Variation Header 2*/
-
-.element-header-texte-2 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 60px;
-    right: 258px;
-    font-size: 13px;
-}
-
-/* Variation Header 3*/
-
-.element-header-texte-3 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 71px;
-    right: 270px;
-    font-size: 13px;
-}
-
-/* Variation Header 4*/
-
-.element-header-texte-4 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 60px;
-    right: 260px;
-    font-size: 11px;
-}
-
-/* Variation Header 5*/
-
-.element-header-texte-5 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 70px;
-    right: 265px;
-    font-size: 13px;
-}
-
-/* Variation Header 6*/
-
-.element-header-texte-6 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 72px;
-    right: 263px;
-    font-size: 12px;
-}
-
-/* Variation Header 7*/
-
-.element-header-texte-7 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 72px;
-    right: 262px;
-    font-size: 11.5px;
-}
-
-/* Variation Header 8*/
-
-.element-header-texte-8 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 65px;
-    right: 262px;
-    font-size: 11px;
-}
-
-/* Variation Header 9*/
-
-.element-header-texte-9 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 62px;
-    right: 262px;
-    font-size: 11.5px;
-}
-
-/* Variation Header 10*/
-
-.element-header-texte-10 {
-    position: absolute;
-    rotate: -6deg;
-    bottom: 65px;
-    right: 260px;
-    font-size: 7.5px;
 }

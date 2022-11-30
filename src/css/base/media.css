@@ -3,6 +3,31 @@ img {
     height: auto;
 }
 
+/* Page d'accueil FR*/
+
+.article-right-accueil-fr {
+    margin-left: 21%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #BE1C1C;
+    border-left: solid 4px;
+    border-bottom: solid 4px;
+    border-color: #BE1C1C;
+    border-radius: 5%;
+}
+
+.article-left-accueil-fr {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: -4%;
+    background-color: #BE1C1C;
+    border-right: solid 4px;
+    border-bottom: solid 4px;
+    border-color: #BE1C1C;
+    border-radius: 5%;
+}
+
 /* Footer */
 
 .icone_btb_footer {
