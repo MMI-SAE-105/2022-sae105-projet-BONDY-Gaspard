@@ -2,7 +2,7 @@
 
 footer {
     background-color: var(--gris-fonce);
-    display: block;
+    display: flex;
 }
 
 .h5-footer {

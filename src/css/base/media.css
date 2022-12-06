@@ -1,6 +1,5 @@
 img {
     max-width: 100%;
-    height: auto;
 }
 
 /* Page d'accueil FR*/
@@ -65,17 +64,3 @@ img {
 button:hover {
     background-color: var(--rouge-fonce-fonce);
   }
-/* Footer */
-
-.icone_btb_footer {
-    display: flex;
-    margin-left: 150px;
-    padding-top: 18px;
-    
-}
-
-.icone_mmi_footer {
-    display: flex;
-    justify-content: center;
-    
-}
