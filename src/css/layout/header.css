@@ -17,6 +17,7 @@ header {
     display: inline-block;
     margin-top: 5%;
     margin-left: 5%;
+    
 }
 
 .language_header_fr {
@@ -29,6 +30,7 @@ header {
     display: inline-block;
     margin-top: 5%;
     margin-right: 5%;
+    opacity: 0%;
 }
 
 .btb_header_fr {
@@ -38,8 +40,8 @@ header {
     font-weight: 800;
     color: #FFFDFD;
     text-align: center;
-    margin-top: 5%;
-    padding-bottom: 5%;
+    margin-top: 5px;
+    padding-bottom: 10px;
 }
 
 /* Header Variation */
@@ -180,6 +182,7 @@ header {
 .home_header_en {
     display: inline-block;
     margin-top: 5%;
+    margin-left: 5%;
 }
 
 .language_header_en {

@@ -5,10 +5,6 @@ img {
 /* Page d'accueil FR*/
 
 .article-right-accueil-fr {
-    display: flex;
-    margin-left: 17.3%;
-    margin-top: 10%;
-    margin-bottom: 10%;
     border-left:  solid 5px;
     border-bottom: solid 5px;
     background-color: var(--rouge-clair);
@@ -17,7 +13,6 @@ img {
 }
 
 .article-left-accueil-fr {
-    position: relative;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: -4%;
@@ -37,7 +32,6 @@ img {
     font-weight: 400;
     border-radius: 5px;
     border-color: var(--rouge-fonce-fonce);
-    position: absolute;
     margin-top: -75px;
     margin-left: 85px;
     cursor: pointer;
@@ -54,7 +48,6 @@ img {
     font-weight: 400;
     border-radius: 5px;
     border-color: var(--rouge-fonce-fonce);
-    position: absolute;
     margin-top: 200px;
     margin-left: -100px;
     cursor: pointer;
@@ -64,4 +57,4 @@ img {
 
 button:hover {
     background-color: var(--rouge-fonce-fonce);
-  }
+}

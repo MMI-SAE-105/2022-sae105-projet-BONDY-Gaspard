@@ -20,7 +20,6 @@ main {
 }
 
 .texte-article-right-accueil-fr {
-    position: absolute;
     font-family: 'Mulish', sans-serif;
     color: #FFFDFD;
     font-size: 18px;
@@ -31,7 +30,6 @@ main {
 }
 
 .texte-article-left-accueil-fr {
-    position: absolute;
     font-family: 'Mulish', sans-serif;
     color: #FFFDFD;
     font-size: 18px;
