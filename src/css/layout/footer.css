@@ -1,83 +1,96 @@
-/* Footer */
-
 footer {
     background-color: var(--gris-fonce);
+    width: 100%;
+}
+
+/* Footer FR */
+
+.icone_btb_footer {
     display: flex;
+    margin: auto;
+    padding-top: 5%;
 }
 
-.h5-footer {
-    color: #FFFFFF;
-    font-family: 'Rubik';
-    font-weight: 400;
-    margin-left: 33px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    line-height: 5%;
-}
-
-.h4-footer {
-    color: #FFFFFF;
+.h5_footer {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    color: var(--blanc);
+    line-height: 15%;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+
+.h4_footer {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--blanc);
     opacity: 50%;
-    margin-left: 33px;
     margin-top: 10%;
-    margin-bottom: 10%;
+    padding-left: 10%;
 }
 
-.liens-footer {
-    color: #FFFFFF;
+.liens_footer {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    color: var(--blanc);
     text-decoration: none;
     list-style-type: none;
-    margin-left: -3px;
+    margin-left: -6%;
+    padding-left: 11%;
 }
 
-.h4-footer-contact {
-    color: #FFFFFF;
+.h4_footer_contact {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    color: var(--blanc);
     opacity: 50%;
-    margin-left: 33px;
     margin-top: 10%;
-    margin-bottom: 3%;
+    padding-left: 10%;
 }
-.mailto-footer {
-    color: #FFFFFF;
+
+.mailto_footer {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    color: var(--blanc);
+    opacity: 50%;
     text-decoration: none;
-    opacity: 50%;
-    margin-left: 33px;
+    padding-left: 10%;
 }
 
-.h4-footer-suivre {
-    color: #FFFFFF;
-    font-family: 'Rubik', sans-serif;
+.h4_footer_suivre {
+    font-family: 'Rubik', sans serif;
     font-weight: 400;
     font-size: 15px;
+    color: var(--blanc);
     opacity: 50%;
-    margin-left: 33px;
     margin-top: 10%;
-    margin-bottom: 3%;
+    padding-left: 10%;
 }
 
-div>a {
-    display: inline-flex;
-    margin-left: 33px;
-    margin-right: -5%;
+.reseaux_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70%;
+    padding-left: 10%;
 }
 
-.p-footer {
-    color: #FFFFFF;
+.p_footer {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    color: var(--blanc);
     text-align: center;
     margin-top: 10%;
+}
+
+.icone_mmi_footer {
+    display: inline-block;
+    margin-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 40%;
 }

@@ -25,8 +25,8 @@ main {
     color: #FFFDFD;
     font-size: 18px;
     font-weight: 700;
-    left: 88px;
-    margin-top: -59%;
+    left: 80px;
+    margin-top: -63%;
     text-shadow: 0px 2.5px 2px black;
 }
 
@@ -36,7 +36,7 @@ main {
     color: #FFFDFD;
     font-size: 18px;
     font-weight: 700;
-    margin-top: -58.5%;
+    margin-top: -63%;
     margin-right: 80px;
     margin-left: 2.5px;
     text-shadow: 0px 2.5px 2px black;
@@ -48,3 +48,4 @@ main {
     font-weight: 800;
     color: #FFFDFD;
 }
+
