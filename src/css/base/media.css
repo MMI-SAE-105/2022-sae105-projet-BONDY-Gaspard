@@ -13,9 +13,7 @@ img {
 }
 
 .article-left-accueil-fr {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: -4%;
+    display: inline-block;
     background-color: var(--rouge-clair);
     border-right: solid 4px;
     border-bottom: solid 4px;
@@ -37,6 +35,7 @@ img {
     cursor: pointer;
     height: 25px;
     box-shadow: 0px 1.5px 5px black;
+    opacity: 0;
 }
 
 .boutton-left-article-fr {
@@ -53,6 +52,7 @@ img {
     cursor: pointer;
     height: 25px;
     box-shadow: 0px 1.5px 5px black;
+    opacity: 0;
 }
 
 button:hover {
