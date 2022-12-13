@@ -5,6 +5,18 @@ img {
 /* Page d'accueil FR*/
 
 .article-right-accueil-fr {
+    margin-left: 17.4%;
+    border-left:  solid 5px;
+    border-bottom: solid 5px;
+    background-color: var(--rouge-clair);
+    border-color: var(--rouge-clair);
+    border-radius: 5% 0 0 5%;
+}
+
+/* Correction alignement image Sauvez la planète*/
+
+.article-right-accueil-fr-2 {
+    margin-left: 17.6%;
     border-left:  solid 5px;
     border-bottom: solid 5px;
     background-color: var(--rouge-clair);
@@ -13,12 +25,11 @@ img {
 }
 
 .article-left-accueil-fr {
-    display: inline-block;
     background-color: var(--rouge-clair);
-    border-right: solid 4px;
-    border-bottom: solid 4px;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
     border-color: var(--rouge-clair);
-    border-radius: 5%;
+    border-radius: 0 5% 5% 0;
 }
 
 .boutton-right-article-fr {
@@ -30,12 +41,12 @@ img {
     font-weight: 400;
     border-radius: 5px;
     border-color: var(--rouge-fonce-fonce);
-    margin-top: -75px;
-    margin-left: 85px;
     cursor: pointer;
     height: 25px;
     box-shadow: 0px 1.5px 5px black;
-    opacity: 0;
+    margin-left: 22%;
+    margin-top: 27%;
+    margin-bottom: 15%;
 }
 
 .boutton-left-article-fr {
@@ -47,12 +58,12 @@ img {
     font-weight: 400;
     border-radius: 5px;
     border-color: var(--rouge-fonce-fonce);
-    margin-top: 200px;
-    margin-left: -100px;
     cursor: pointer;
     height: 25px;
     box-shadow: 0px 1.5px 5px black;
-    opacity: 0;
+    margin-left: 56%;
+    margin-top: 27%;
+    margin-bottom: 15%;
 }
 
 button:hover {

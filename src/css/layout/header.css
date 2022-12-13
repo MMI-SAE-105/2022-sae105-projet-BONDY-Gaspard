@@ -14,7 +14,6 @@ header {
 }
 
 .home_header_fr {
-    display: inline-block;
     margin-top: 5%;
     margin-left: 5%;
     
@@ -24,13 +23,6 @@ header {
     display: inline-block;
     margin-top: 5%;
     margin-left: 5%;
-}
-
-.menu_header_fr {
-    display: inline-block;
-    margin-top: 5%;
-    margin-right: 5%;
-    opacity: 0%;
 }
 
 .btb_header_fr {
