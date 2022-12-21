@@ -2,6 +2,10 @@ img {
     max-width: 100%;
 }
 
+main {
+    max-width: 100%;
+}
+
 /* Page d'accueil FR*/
 
 .article-right-accueil-fr {
@@ -23,6 +27,8 @@ img {
     border-color: var(--rouge-clair);
     border-radius: 5% 0 0 5%;
 }
+
+/* Suite Page d'accueil FR */
 
 .article-left-accueil-fr {
     background-color: var(--rouge-clair);
@@ -68,4 +74,10 @@ img {
 
 button:hover {
     background-color: var(--rouge-fonce-fonce);
+}
+
+/* Film FR */
+
+.film_article_image_1 {
+    width: 100%;
 }

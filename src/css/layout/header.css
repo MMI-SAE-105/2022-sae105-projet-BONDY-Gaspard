@@ -39,7 +39,7 @@ header {
 /* Header Variation */
 
 .round-header {
-    display: block;
+    display: flex;
     margin: auto;
 }
 

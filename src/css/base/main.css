@@ -50,3 +50,13 @@ main {
     color: #FFFDFD;
 }
 
+/* Page FR - Film */
+
+.film_article_intro {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: 10%;
+}
