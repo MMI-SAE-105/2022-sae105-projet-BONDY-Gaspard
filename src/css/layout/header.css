@@ -99,9 +99,9 @@ header {
 .element-header-texte-4 {
     position: absolute;
     rotate: -6deg;
-    bottom: 60px;
-    right: 260px;
-    font-size: 11px;
+    bottom: 40%;
+    right: 73%;
+    font-size: 10px;
 }
 
 /* Variation Header 5*/

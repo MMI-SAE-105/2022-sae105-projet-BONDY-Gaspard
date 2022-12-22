@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <a class="home-header"href="../index.html">
-            <img src="../public/icone/home.svg" alt="Icône du bouton home">
+    <header class="header_fr_2">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="/index.html">
+                <img src="/public/icone/home.svg" alt="Icône du bouton home">
+            </a>
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_fr_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
+        </div>
+        <a class="language_header_fr" href="./en/index_en.html">
+            <img src="/public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
         </a>
-        <img class="menu-header" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
-        <a class="language-header"href="../en/index_en.html">
-            <img src="../public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
-        </a>
-        <img class="btb-header" src="../public/icone/BACK_TO_BACK.svg" alt="logo du site internet Back To Back">
+        <h2 class="btb_header_fr">Back To Back</h2>
+        
         <div class="element-header">
             <div class="element-header-image">
                 <img class="round-header" src="../public/icone/Round_face.svg" alt="Image Face round">
@@ -27,25 +32,43 @@
                 <h1 class="h1-header">Sauvez la planète</h1>
             </div>
         </div>
+
+        <nav class="menu_fr">
+            <ul>
+                <li><a href="/fr/film_fr.html">> Top Gun</a></li>
+                <li><a href="/fr/livre_fr.html">> État d'urgence</a></li>
+                <li><a href="/fr/musique_fr.html">> LND</a></li>
+                <li><a href="/fr/lieu_fr.html">> Besançon</a></li>
+                <li><a href="/fr/espoir_fr.html">> Sauver la planète</a></li>
+                <li><a href="/fr/regret_fr.html">> Le réchauffement climatique</a></li>
+                <li><a href="/fr/glossaire_fr.html">> Glossaire</a></li>
+                <li><a href="/fr/autreprojets_fr.html">> Autre projets</a></li>
+                <li><a href="/fr/apropos_fr.html">> À propos</a></li>
+                <li><a href="/fr/contact_fr.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>Comme vous le constatez aujourd’hui, le monde va mal, la planète va mal. Il faut faire quelque chose ! Selon nous, sauvez la planète serait un espoir, l’espoir de donner aux futurs génération une planète propre et en bonne santé. Mais bon on ne va pas se le cacher, c’est mal parti.</p>
-        <p>Commençons par se poser une question simple Sauvez la planète, c’est quoi ?</p>
+        <p class="espoir_article_intro">Comme vous le constatez aujourd’hui, le monde va mal, la planète va mal. Il faut faire quelque chose ! Selon nous, sauvez la planète serait un espoir, l’espoir de donner aux futurs génération une planète propre et en bonne santé. Mais bon on ne va pas se le cacher, c’est mal parti.</p>
+        <p class="espoir_article_intro">Commençons par se poser une question simple Sauvez la planète, c’est quoi ?</p>
         <img src="../public/img/Planète_1.webp" alt="Image de la planète qui souffre">
 
         <article>
-            <h3>Sauvez la planète, c'est quoi ?</h3>
-            <p>Cette action c’est faire quelque chose, il faut faire une action peux importe qui nous sommes, peux importe notre âge, notre taille, notre poids. Nous pouvons tous faire quelque chose du petit nourrisson à la personnes âgée nous pouvons tous intervenir pour sauver la planète de demain.</p>
-            <p>Sauvez la planète c’est avant tout un grand combat, que ce donne des grands hommes & des grandes femmes. C’est le fait de vouloir sauver celle-ci, avant tout réparer les mauvaises actions que l’Homme a pu faire dans la passée. On peut citer par ex : la pollution, la déforestation, la pollution de l’air & du sol, l’extinction d’espèce et bien d’autre. Toutes ses choses n’ont qu’un seul point d’origine c’est l’Homme. Sans lui, la planète se porterait bien. Mais aujourd’hui le compte à rebours de ce grand combat est lancé !</p>
-            <p>Mais comment sauvez la planète ?</p>
+            <h3 class="espoir_article_texte_tittle">Sauvez la planète, c'est quoi ?</h3>
+            <p class="espoir_article_texte_content">Cette action c’est faire quelque chose, il faut faire une action peu importe qui nous sommes, peu importe notre âge, notre taille, notre poids. Nous pouvons tous faire quelque chose du petit nourrisson à la personne âgée nous pouvons tous intervenir pour sauver la planète de demain.</p>
+            <p class="espoir_article_texte_content">Sauvez la planète c’est avant tout un grand combat, que ce donne des grands hommes & des grandes femmes. C’est le fait de vouloir sauver celle-ci, avant tout réparer les mauvaises actions que l’Homme a pu faire dans la passée. On peut citer par ex : <strong>pollution, la déforestation, la pollution de l’air & du sol, l’extinction d’espèce et bien d’autre.</strong> Toutes ses choses n’ont qu’un seul point d’origine c’est l’Homme. Sans lui, la planète se porterait bien. Mais aujourd’hui le compte à rebours de ce grand combat est lancé !</p>
+            <p class="espoir_article_texte_content">Mais comment sauvez la planète ?</p>
             <img src="../public/img/Planète_2.webp" alt="Image de la planète qu'il faut sauver">
         </article>
         <article>
-            <h3>Comment sauvez la planète ?</h3>
-            <p>Pour sauvez la planète, il faudrait avant tout arrêter de polluer, mais c’est plus facile à dire qu’a faire. La pollution c’est l’une des premières causes des problèmes pour celle-ci. On peut citer par ex, les grandes mers de plastiques qui ceux sont formés par les nombreux plastiques jetés tous les jours dans la nature. Des tonnes et des tonnes partout dans le monde. Pour la sauver, il faudra que chaque être humains face des bons gestes : faire le tri des déchets, ne pas gaspiller l’eau, l’électricité et bien d’autre.</p>
-            <p>Certains pays comme la France, commence à se rendre compte de l’état actuel de la planète et mettent en place des mesures. Mais d’autre n’ont pas encore réagis comme par ex : Les Etats-Unis.</p>
-            <p>Il faut faire vite le temps est compté !</p>
-            <a href="/fr/regret_fr.html">Article suivant : "Le réchauffement climatique"</a>
+            <h3 class="espoir_article_texte_tittle">Comment sauvez la planète ?</h3>
+            <p class="espoir_article_texte_content">Pour sauvez la planète, il faudrait avant tout arrêter de polluer, mais c’est plus facile à dire qu’à faire. La pollution c’est l’une des premières causes des problèmes pour celle-ci. On peut citer par ex, les grandes mers de plastiques qui ceux sont formés par les nombreux plastiques jetés tous les jours dans la nature. Des tonnes et des tonnes partout dans le monde. Pour la sauver, il faudra que chaque être humains face des bons gestes : <strong> le tri des déchets, ne pas gaspiller l’eau, l’électricité et bien d’autre.</strong></p>
+            <p class="espoir_article_texte_content">Certains pays comme la France, commence à se rendre compte de l’état actuel de la planète et mettent en place des mesures. Mais d’autre n’ont pas encore réagis comme par ex : Les Etats-Unis.</p>
+            <p class="espoir_article_texte_content">Il faut faire vite le temps est compté !</p>
+            <p class="espoir_article_texte_content">Article suivant : "Le réchauffement climatique"</p>
+            <div class="espoir_article_texte_content_center">
+            <a class="espoir_article_texte_content_center" href="/fr/regret_fr.html">Cliquez ici</a>
+            </div>
         </article>
     </main>
     <footer>
