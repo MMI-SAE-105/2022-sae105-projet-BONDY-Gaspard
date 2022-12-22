@@ -60,3 +60,70 @@ main {
     margin-inline: 5%;
     margin-bottom: 10%;
 }
+
+.film_article_texte_tittle {
+    font-family:  'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: -1%;
+    margin-top: 10%;
+}
+
+.film_article_texte_tittle_center {
+    font-family:  'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: -1%;
+    text-align: center;
+}
+
+.film_article_texte_tittle_italic {
+    font-family:  'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: italic;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+}
+
+.film_article_texte_content {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+}
+
+.film_article_texte_content_center {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    text-align: center;
+}
+
+.film_article_texte_content_italic {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+}
+
+.film_article_texte_list {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: var(--gris-fonce);
+    text-decoration: none;
+}
+
+.film_article_texte_link {
+    margin-inline: 5%;
+}
