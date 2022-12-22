@@ -362,3 +362,33 @@ main {
     color: var(--gris-fonce);
     margin-inline: 5%;
 }
+
+/* Autre projets FR */
+
+.ap_article_intro {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: 10%;
+}
+
+.ap_article_texte_content_site_tittle {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    text-align: center;
+}
+
+.ap_article_texte_content_name {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    text-align: center;
+    margin-top: -5%;
+}

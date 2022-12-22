@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <a class="home-header"href="../index.html">
-            <img src="../public/icone/home.svg" alt="Icône du bouton home">
+    <header class="header_fr_2">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="/index.html">
+                <img src="/public/icone/home.svg" alt="Icône du bouton home">
+            </a>
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_fr_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
+        </div>
+        <a class="language_header_fr" href="./en/index_en.html">
+            <img src="/public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
         </a>
-        <img class="menu-header" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
-        <a class="language-header"href="../en/index_en.html">
-            <img src="../public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
-        </a>
-        <img class="btb-header" src="../public/icone/BACK_TO_BACK.svg" alt="logo du site internet Back To Back">
+        <h2 class="btb_header_fr">Back To Back</h2>
+        
         <div class="element-header">
             <div class="element-header-image">
                 <img class="round-header" src="../public/icone/Round_face.svg" alt="Image Face round">
@@ -27,61 +32,76 @@
                 <h1 class="h1-header">Autre projets</h1>
             </div>
         </div>
+
+        <nav class="menu_fr">
+            <ul>
+                <li><a href="/fr/film_fr.html">> Top Gun</a></li>
+                <li><a href="/fr/livre_fr.html">> État d'urgence</a></li>
+                <li><a href="/fr/musique_fr.html">> LND</a></li>
+                <li><a href="/fr/lieu_fr.html">> Besançon</a></li>
+                <li><a href="/fr/espoir_fr.html">> Sauver la planète</a></li>
+                <li><a href="/fr/regret_fr.html">> Le réchauffement climatique</a></li>
+                <li><a href="/fr/glossaire_fr.html">> Glossaire</a></li>
+                <li><a href="/fr/autreprojets_fr.html">> Autre projets</a></li>
+                <li><a href="/fr/apropos_fr.html">> À propos</a></li>
+                <li><a href="/fr/contact_fr.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>Ci-dessous, vous pourrez retrouver tous les autres projets de mon groupe, car oui, je ne suis pas tout seul ! Allez-y faire un tour, vous trouverez sûrement votre bonheur !</p>
+        <p class="ap_article_intro">Ci-dessous, vous pourrez retrouver tous les autres projets de mon groupe, car oui, je ne suis pas tout seul ! Allez-y faire un tour, vous trouverez sûrement votre bonheur !</p>
 
         <article>
-            <h5>Tengu Road</h5>
-            <p>Lucas BARDEY</p>
+            <h5 class="ap_article_texte_content_site_tittle">Tengu Road</h5>
+            <p class="ap_article_texte_content_name">Lucas BARDEY</p>
         </article>
         <article>
-            <h5>Timerproof cybersoul</h5>
-            <p>Zoé VICAT</p>
+            <h5 class="ap_article_texte_content_site_tittle">Timerproof cybersoul</h5>
+            <p class="ap_article_texte_content_name">Zoé VICAT</p>
         </article>
         <article>
-            <h5>Mind_Uploading.exe</h5>
-            <p>Lisa CINGOLANI</p>
+            <h5 class="ap_article_texte_content_site_tittle">Mind_Uploading.exe</h5>
+            <p class="ap_article_texte_content_name">Lisa CINGOLANI</p>
         </article>
         <article>
-            <h5>Discover-e</h5>
-            <p>Lucas CHIPPAUX</p>
+            <h5 class="ap_article_texte_content_site_tittle">Discover-e</h5>
+            <p class="ap_article_texte_content_name">Lucas CHIPPAUX</p>
         </article>
         <article>
-            <h5>Jibun</h5>
-            <p>Emilien BOUCARD</p>
+            <h5 class="ap_article_texte_content_site_tittle">Jibun</h5>
+            <p class="ap_article_texte_content_name">Emilien BOUCARD</p>
         </article>
         <article>
-            <h5>Reminder</h5>
-            <p>Lisa BUGNET</p>
+            <h5 class="ap_article_texte_content_site_tittle">Reminder</h5>
+            <p class="ap_article_texte_content_name">Lisa BUGNET</p>
         </article>
         <article>
-            <h5>Dicta</h5>
-            <p>Chloe BIZET</p>
+            <h5 class="ap_article_texte_content_site_tittle">Dicta</h5>
+            <p class="ap_article_texte_content_name">Chloe BIZET</p>
         </article>
         <article>
-            <h5>Sweet Old Times</h5>
-            <p>Jael AMEMOUTOU</p>
+            <h5 class="ap_article_texte_content_site_tittle">Sweet Old Times</h5>
+            <p class="ap_article_texte_content_name">Jael AMEMOUTOU</p>
         </article>
         <article>
-            <h5>Mon Nindo</h5>
-            <p>Ayrton CHAVES</p>
+            <h5 class="ap_article_texte_content_site_tittle">Mon Nindo</h5>
+            <p class="ap_article_texte_content_name">Ayrton CHAVES</p>
         </article>
         <article>
-            <h5>Wikipiece</h5>
-            <p>Yannis BOREL</p>
+            <h5 class="ap_article_texte_content_site_tittle">Wikipiece</h5>
+            <p class="ap_article_texte_content_name">Yannis BOREL</p>
         </article>
         <article>
-            <h5>Reverse Footage</h5>
-            <p>Timéo BINDA</p>
+            <h5 class="ap_article_texte_content_site_tittle">Reverse Footage</h5>
+            <p class="ap_article_texte_content_name">Timéo BINDA</p>
         </article>
         <article>
-            <h5>As Time Flies</h5>
-            <p>Dalil HAMMACHI</p>
+            <h5 class="ap_article_texte_content_site_tittle">As Time Flies</h5>
+            <p class="ap_article_texte_content_name">Dalil HAMMACHI</p>
         </article>
         <article>
-            <h5>Rake over the ashes</h5>
-            <p>Alexis BERNARD</p>
+            <h5 class="ap_article_texte_content_site_tittle">Rake over the ashes</h5>
+            <p class="ap_article_texte_content_name">Alexis BERNARD</p>
         </article>
     </main>
     <footer>
