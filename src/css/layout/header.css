@@ -119,8 +119,8 @@ header {
 .element-header-texte-6 {
     position: absolute;
     rotate: -6deg;
-    bottom: 72px;
-    right: 263px;
+    bottom: 52%;
+    right: 79%;
     font-size: 12px;
 }
 

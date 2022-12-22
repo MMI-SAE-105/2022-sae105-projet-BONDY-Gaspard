@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <a class="home-header"href="../index.html">
-            <img src="../public/icone/home.svg" alt="Icône du bouton home">
+    <header class="header_fr_2">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="/index.html">
+                <img src="/public/icone/home.svg" alt="Icône du bouton home">
+            </a>
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_fr_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
+        </div>
+        <a class="language_header_fr" href="./en/index_en.html">
+            <img src="/public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
         </a>
-        <img class="menu-header" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
-        <a class="language-header"href="../en/index_en.html">
-            <img src="../public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
-        </a>
-        <img class="btb-header" src="../public/icone/BACK_TO_BACK.svg" alt="logo du site internet Back To Back">
+        <h2 class="btb_header_fr">Back To Back</h2>
+        
         <div class="element-header">
             <div class="element-header-image">
                 <img class="round-header" src="../public/icone/Round_face.svg" alt="Image Face round">
@@ -27,25 +32,40 @@
                 <h1 class="h1-header">Glossaire</h1>
             </div>
         </div>
+
+        <nav class="menu_fr">
+            <ul>
+                <li><a href="/fr/film_fr.html">> Top Gun</a></li>
+                <li><a href="/fr/livre_fr.html">> État d'urgence</a></li>
+                <li><a href="/fr/musique_fr.html">> LND</a></li>
+                <li><a href="/fr/lieu_fr.html">> Besançon</a></li>
+                <li><a href="/fr/espoir_fr.html">> Sauver la planète</a></li>
+                <li><a href="/fr/regret_fr.html">> Le réchauffement climatique</a></li>
+                <li><a href="/fr/glossaire_fr.html">> Glossaire</a></li>
+                <li><a href="/fr/autreprojets_fr.html">> Autre projets</a></li>
+                <li><a href="/fr/apropos_fr.html">> À propos</a></li>
+                <li><a href="/fr/contact_fr.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>Ci-dessous, vous pourrez retrouver le glossaire du site internet : un mot que vous ne comprenez pas, ou que vous voulez approfondir, c’est ici !</p>
+        <p class="glossaire_article_intro">Ci-dessous, vous pourrez retrouver le glossaire du site internet : un mot que vous ne comprenez pas, ou que vous voulez approfondir, c’est ici !</p>
 
         <article>
-            <h3>Spoil/Spoiler Alert :</h3>
-            <p>Gâcher le plaisir d’une personne en lui dévoilant l’histoire d’un/d’une film/séries qu’il n’a pas encore vue.</p>
+            <h3 class="glossaire_article_texte_tittle">Spoil/Spoiler Alert :</h3>
+            <p class="glossaire_article_texte_content">Gâcher le plaisir d’une personne en lui dévoilant l’histoire d’un/d’une film/séries qu’il n’a pas encore vue.</p>
         </article>
         <article>
-            <h3>FPS :</h3>
-            <p>Terme employé dans le jeux vidéo pour définir la vue du joueur, dans ce cas-ci, FPS signifie “First Person Shooter” ou jeu de tir à la première personne.</p>
+            <h3 class="glossaire_article_texte_tittle">FPS :</h3>
+            <p class="glossaire_article_texte_content">Terme employé dans le jeux vidéo pour définir la vue du joueur, dans ce cas-ci, FPS signifie “First Person Shooter” ou jeu de tir à la première personne.</p>
         </article>
         <article>
-            <h3>TPS :</h3>
-            <p>Terme employé dans le jeux vidéo pour définir la vue du joueur, dans ce cas-ci, TPS signifie “Third Person Shooter” ou jeu de tir à la troisième personne.</p>
+            <h3 class="glossaire_article_texte_tittle">TPS :</h3>
+            <p class="glossaire_article_texte_content">Terme employé dans le jeux vidéo pour définir la vue du joueur, dans ce cas-ci, TPS signifie “Third Person Shooter” ou jeu de tir à la troisième personne.</p>
         </article>
         <article>
-            <h3>Free-To-Play :</h3>
-            <p>Le terme “Free-To-Play” signifie “Libre de jouer”. On l’associe à un jeu vidéo lorsque celui-ci est accessible gratuitement. On l’associe aussi à l’abréviation “F2P”.</p>
+            <h3 class="glossaire_article_texte_tittle">Free-To-Play :</h3>
+            <p class="glossaire_article_texte_content">Le terme “Free-To-Play” signifie “Libre de jouer”. On l’associe à un jeu vidéo lorsque celui-ci est accessible gratuitement. On l’associe aussi à l’abréviation “F2P”.</p>
         </article>
     </main>
     <footer>
