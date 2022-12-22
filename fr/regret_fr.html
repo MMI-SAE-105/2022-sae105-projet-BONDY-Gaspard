@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <a class="home-header"href="../index.html">
-            <img src="../public/icone/home.svg" alt="Icône du bouton home">
+    <header class="header_fr_2">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="/index.html">
+                <img src="/public/icone/home.svg" alt="Icône du bouton home">
+            </a>
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_fr_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
+        </div>
+        <a class="language_header_fr" href="./en/index_en.html">
+            <img src="/public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
         </a>
-        <img class="menu-header" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
-        <a class="language-header"href="../en/index_en.html">
-            <img src="../public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
-        </a>
-        <img class="btb-header" src="../public/icone/BACK_TO_BACK.svg" alt="logo du site internet Back To Back">
+        <h2 class="btb_header_fr">Back To Back</h2>
+        
         <div class="element-header">
             <div class="element-header-image">
                 <img class="round-header" src="../public/icone/Round_face.svg" alt="Image Face round">
@@ -27,24 +32,42 @@
                 <h1 class="h1-header">Le réchauffement climatique</h1>
             </div>
         </div>
+
+        <nav class="menu_fr">
+            <ul>
+                <li><a href="/fr/film_fr.html">> Top Gun</a></li>
+                <li><a href="/fr/livre_fr.html">> État d'urgence</a></li>
+                <li><a href="/fr/musique_fr.html">> LND</a></li>
+                <li><a href="/fr/lieu_fr.html">> Besançon</a></li>
+                <li><a href="/fr/espoir_fr.html">> Sauver la planète</a></li>
+                <li><a href="/fr/regret_fr.html">> Le réchauffement climatique</a></li>
+                <li><a href="/fr/glossaire_fr.html">> Glossaire</a></li>
+                <li><a href="/fr/autreprojets_fr.html">> Autre projets</a></li>
+                <li><a href="/fr/apropos_fr.html">> À propos</a></li>
+                <li><a href="/fr/contact_fr.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>Encore une fois, un autre phénomène similaire à l’article sur l’espoir de sauvez la planète (nous vous invitons d’ailleurs à aller le voir), c’est le réchauffement climatique. L’une des conséquences de l’actions humaine sur le globe mais c’est quoi le réchauffement climatique ?</p>
+        <p class="regret_article_intro">Encore une fois, un autre phénomène similaire à l’article sur l’espoir de sauvez la planète (nous vous invitons d’ailleurs à aller le voir), c’est le réchauffement climatique. L’une des conséquences de l’actions humaine sur le globe mais c’est quoi le réchauffement climatique ?</p>
         <img src="../public/img/Réchauffement_1.webp" alt="Image du réchauffement climatique 1">
 
         <article>
-            <h3>Le réchauffement climatique c'est quoi ?</h3>
-            <p>C’est un phénomène global de transformation du climat caractérisé notamment par une augmentation générale des températures. Ce phénomène est principalement provoqué par l’action humaine. Il modifie aussi par la même occasion l’équilibre météorologiques ainsi que l’écosystème. Parmi les actions humaines ont comptent l’industrialisation, le dégagement de gaz à effets de serre mais aussi la pollution. Il y a encore une très grande liste qui influe sur le réchauffement climatique, mais nous n’allons pas l’écrire ici.</p>
-            <p>Les causes du réchauffement climatique sont surtout les gaz à effet de serre qui proviennent principalement de la production des énergies chauffage et électricité mais aussi le carburant pour les transports surtout pour la voiture.</p>
-            <p>C’est bien gentil de parler des choses qui font mal mais comment pouvons nous lutter face au réchauffement climatique ?</p>
-            <p>Comment faire face à cet énorme combat qui malheureusement s’offre à nous ?</p>
+            <h3 class="regret_article_texte_tittle">Le réchauffement climatique c'est quoi ?</h3>
+            <p class="regret_article_texte_content">C’est un phénomène global de transformation du climat caractérisé notamment par une augmentation générale des températures. Ce phénomène est principalement provoqué par <strong>l’action humaine.</strong> Il modifie aussi par la même occasion <strong>l’équilibre météorologiques</strong> ainsi que <strong>l’écosystème.</strong> Parmi les actions humaines ont comptent <strong>l’industrialisation, le dégagement de gaz à effets de serre</strong> mais aussi <strong>la pollution.</strong> Il y a encore une très grande liste qui influe sur le réchauffement climatique, mais nous n’allons pas l’écrire ici.</p>
+            <p class="regret_article_texte_content">Les causes du réchauffement climatique sont surtout <strong>les gaz à effet de serre</strong> qui proviennent principalement de la production des énergies chauffage et électricité mais aussi le carburant pour les transports surtout pour la voiture.</p>
+            <p class="regret_article_texte_content">C’est bien gentil de parler des choses qui font mal mais comment pouvons nous lutter face au réchauffement climatique ?</p>
+            <p class="regret_article_texte_content">Comment faire face à cet énorme combat qui malheureusement s’offre à nous ?</p>
             <img src="../public/img/Réchauffement_2.webp" alt="Image du réchauffement climatique 2">
         </article>
         <article>
-            <h3>Comment lutter face au réchauffement climatique ?</h3>
-            <p>Il faudrait donc réduire la production de gaz à effet de serre, pour cela, il faudrait commencer déjà par utiliser uniquement des énergies renouvelables et non polluantes comme par ex : l’énergie des éoliennes, les panneaux solaires ou encore l’énergie hydraulique. On pourrait aussi songer à privilégier l’utilisation des transports communs dans les villes ou même bien mieux le vélo ou ses pieds. Utilisez des autres moyens de transports, tout sauf la voiture. Afin de réduire ce réchauffement climatique, il faudrait que chaque être humains réagisse et prennent conscience que ses actes vont se répandre sur des générations de générations.</p>
-            <p>Qu’en pensez-vous est-il trop tard ? Avons-nous encore le temps pour préparer notre approche ? </p>
-            <a href="/index.html">Page d'accueil : Retour à l'accueil</a>
+            <h3 class="regret_article_texte_tittle">Comment lutter face au réchauffement climatique ?</h3>
+            <p class="regret_article_texte_content">Il faudrait donc réduire la production de gaz à effet de serre, pour cela, il faudrait commencer déjà par utiliser uniquement <strong>des énergies renouvelables et non polluantes</strong> comme par ex : <strong>l’énergie des éoliennes, les panneaux solaires ou encore l’énergie hydraulique.</strong> On pourrait aussi songer à privilégier <strong>l’utilisation des transports communs</strong> dans les villes ou même bien mieux <strong>le vélo ou ses pieds.</strong> Utilisez des autres moyens de transports, tout <strong>sauf la voiture.</strong> Afin de réduire ce réchauffement climatique, il faudrait que chaque être humains réagisse et prennent conscience que ses actes vont se répandre <strong>sur des générations de générations.</strong></p>
+            <p class="regret_article_texte_content">Qu’en pensez-vous est-il trop tard ? Avons-nous encore le temps pour préparer notre approche ? </p>
+            <p class="regret_article_texte_content">Page d'accueil : Retour à l'accueil</p>
+            <div class="regret_article_texte_content_center">
+            <a class="regret_article_texte_content_center" href="/index.html">Cliquez ici</a>
+            </div>
         </article>
     </main>
     <footer>

@@ -294,3 +294,42 @@ main {
     text-decoration: none;
     text-align: center;
 }
+
+/* Regret FR */
+
+.regret_article_intro {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: 10%;
+}
+
+.regret_article_texte_tittle {
+    font-family:  'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: -1%;
+    margin-top: 10%;
+}
+
+.regret_article_texte_content {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+}
+
+.regret_article_texte_content_center {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    text-decoration: none;
+    text-align: center;
+}
