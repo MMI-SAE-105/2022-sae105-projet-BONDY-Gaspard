@@ -6,14 +6,6 @@ main {
     max-width: 100%;
 }
 
-header {
-    max-width: 100%;
-}
-
-footer {
-    max-width: 100%;
-}
-
 /* Page d'accueil FR*/
 
 .article-right-accueil-fr {
@@ -80,7 +72,7 @@ footer {
     margin-bottom: 15%;
 }
 
-button:hover {
+button :hover {
     background-color: var(--rouge-fonce-fonce);
 }
 
