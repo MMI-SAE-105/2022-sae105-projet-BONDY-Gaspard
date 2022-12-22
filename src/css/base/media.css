@@ -97,6 +97,12 @@ button :hover {
     margin-right: 5%;
 }
 
+.film_article_video {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 /* Livre FR */
 
 .livre_article_image_primary {
@@ -111,3 +117,5 @@ button :hover {
     margin: auto;
     margin-top: 10%;
 }
+
+/* Musique FR */

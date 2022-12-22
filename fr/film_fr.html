@@ -8,6 +8,10 @@
     <title>Back To Back - Top Gun</title>
     <link rel="icon" href="../public/img/favicon.webp">
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
+    <link href="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.css" 
+    rel="stylesheet">
+    <script src="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.js" 
+    type="text/javascript"></script>
 </head>
 <body>
     <header class="header_fr_2">
@@ -95,6 +99,17 @@
             </p>
             <p class="film_article_texte_content">Encore une fois pour la suite il faudra vous rendre dans un cinéma.
                  Nous ne voulons pas être responsable d’un « spoil de masse ».</p>
+            <h3 class="film_article_texte_tittle_center">Bande d'annonce du film</h3>
+            
+            <video
+            width=350
+            height=200
+            id="example-player"
+            controls
+            muted
+            class="film_article_video">
+            </video>
+
             <div class="film_article_image_dual">
             <img class="film_article_image_" src="../public/img/Tony_Scoot.webp" alt="Photo de Tony Scoot">
             <img  class="film_article_image_"src="../public/img/Joseph_Kosinski.webp" alt="Photo de Joseph Kosinski">
@@ -195,5 +210,11 @@
             <img src="/public/icone/MMI.svg" alt="Logo MMI de Montbéliard">
         </a>
     </footer>
+    <script>
+        var cld = cloudinary.videoPlayer('example-player', { 
+            cloud_name: 'dkgnswhxe',
+            sourceTypes: ['hls','dash','webm/vp9','mp4/h265','mp4']});
+        cld.source('https://res.cloudinary.com/dkgnswhxe/video/upload/v1669882797/Top_Gun_Maverick_bande_annonce_uwdr2i.mp4');
+    </script>
 </body>
 </html>
