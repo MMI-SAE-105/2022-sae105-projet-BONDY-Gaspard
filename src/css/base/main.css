@@ -168,7 +168,7 @@ main {
 }
 
 .livre_article_texte_link {
-    margin-inline: 5%;
+    text-align: center;
 }
 
 /* Musique FR */
@@ -201,5 +201,57 @@ main {
 }
 
 .musique_article_texte_link {
+    text-align: center;
+}
+
+/* Lieu FR */
+
+.lieu_article_intro {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: 10%;
+}
+
+.lieu_article_texte_tittle {
+    font-family:  'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    margin-bottom: -1%;
+    margin-top: 10%;
+}
+
+.lieu_article_texte_content {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+}
+
+.lieu_article_texte_content_italic {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gris-fonce);
+    margin-left: 5%;
+}
+
+.lieu_article_texte_link {
+    text-align: center;
+}
+
+.lieu_article_texte_content_center {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    text-decoration: none;
     text-align: center;
 }

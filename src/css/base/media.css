@@ -79,7 +79,7 @@ button :hover {
 /* Film FR */
 
 .film_article_image_primary {
-    width: 90%;
+    width: 100%;
     display: flex;
     margin: auto;
 }
@@ -118,4 +118,19 @@ button :hover {
     margin-top: 10%;
 }
 
-/* Musique FR */
+/* Lieu FR */
+
+.livre_article_image_secondary {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.lieu_article_image_frise {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
