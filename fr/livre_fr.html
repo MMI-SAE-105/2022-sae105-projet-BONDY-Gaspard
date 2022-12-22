@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <a class="home-header"href="../index.html">
-            <img src="../public/icone/home.svg" alt="Icône du bouton home">
+    <header class="header_fr_2">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="/index.html">
+                <img src="/public/icone/home.svg" alt="Icône du bouton home">
+            </a>
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_fr_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
+        </div>
+        <a class="language_header_fr" href="./en/index_en.html">
+            <img src="/public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
         </a>
-        <img class="menu-header" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
-        <a class="language-header"href="../en/index_en.html">
-            <img src="../public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
-        </a>
-        <img class="btb-header" src="../public/icone/BACK_TO_BACK.svg" alt="logo du site internet Back To Back">
+        <h2 class="btb_header_fr">Back To Back</h2>
+
         <div class="element-header">
             <div class="element-header-image">
                 <img class="round-header" src="../public/icone/Round_face.svg" alt="Image Face round">
@@ -27,84 +32,103 @@
                 <h1 class="h1-header">État d'urgence</h1>
             </div>
         </div>
+
+        <nav class="menu_fr">
+            <ul>
+                <li><a href="/fr/film_fr.html">> Top Gun</a></li>
+                <li><a href="/fr/livre_fr.html">> État d'urgence</a></li>
+                <li><a href="/fr/musique_fr.html">> LND</a></li>
+                <li><a href="/fr/lieu_fr.html">> Besançon</a></li>
+                <li><a href="/fr/espoir_fr.html">> Sauver la planète</a></li>
+                <li><a href="/fr/regret_fr.html">> Le réchauffement climatique</a></li>
+                <li><a href="/fr/glossaire_fr.html">> Glossaire</a></li>
+                <li><a href="/fr/autreprojets_fr.html">> Autre projets</a></li>
+                <li><a href="/fr/apropos_fr.html">> À propos</a></li>
+                <li><a href="/fr/contact_fr.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>
+        <p class="livre_article_intro">
         Il existe de nombreux romans qui racontent des histoires sur le climat,
         l'environnment, l'écologie et les combats pour défendre ses différents termes.
         Parmi ses romans, un seul a retenu notre attention, c'est État d'urgence de Michael Crichton !
         </p>
-        <img src="../public/img/Image_état_d'urgence.webp" alt="Couverture du livre État d'urgence">
+        <img class="livre_article_image_primary" src="../public/img/Image_état_d'urgence.webp" alt="Couverture du livre État d'urgence">
         
         <article>
-            <h3>État d'urgence, c'est quoi ?</h3>
-            <p>
+            <h3 class="livre_article_texte_tittle">État d'urgence, c'est quoi ?</h3>
+            <p class="livre_article_texte_content">
             Ce terme peut être employé pour définir de nombreuses situations comme par ex : 
             pendant la crise sanitaire, le président de la République avait qualifié cette situation d’état d’urgence sanitaire (covid 19). 
             Mais, dans notre cas, c’est le nom d’un livre écrit par Michael Crichton.
             </p>
-            <p>
+            <p class="livre_article_texte_content">
             “État d’urgence c’est l’histoire d’un milliardaire du nom de George Morton qui s’écrase du haut d’une falaise avec sa Ferrari juste après avoir annoncé qu’il retirait son soutien à un mouvement écologiste international. 
             Avant de disparaître, George a laissé un message à son avocat du nom de Peter ainsi qu’à son assistante du nom de Sarah, après avoir décrypté le message. 
             Ils se retrouvent à faire le tour du monde pour lutter contre un ennemi qui est prêt à détruire la planète.”
             </p>
-            <p>
+            <p class="livre_article_texte_content">
             C’était un petit résumé du roman de Michael Crichton, si vous voulez l’extrait du livre en intégralité, 
             nous vous invitons à vous rendre dans la bibliothèque la proche de chez vous.
             </p>
-            <img src="../public/img/Michael_Crinchton.webp" alt="Photo de l'auteur">
+            <img class="livre_article_image_secondary" src="../public/img/Michael_Crinchton.webp" alt="Photo de l'auteur">
         </article>
         <article>
-            <h3>Mais qui est Michael Crichton ?</h3>
-            <p>
+            <h3 class="livre_article_texte_tittle">Mais qui est Michael Crichton ?</h3>
+            <p class="livre_article_texte_content">
             Il est né le 23 octobre 1942 à Chicago et mort le 4 novembre 2008 à Los Angeles.
             C'est avant tout un écrivain américain dans la science-fiction. Il est aussi scénariste et producteur de films.
             Parmis ses principaux romans et nouvelles à succès, on compte Jurassic Park, Le Monde perdu, Sphère, Westworld et 13e Guerrier.
             </p>
         </article>
         <article>
-            <h3>Pourquoi État d'urgence ?</h3>
-            <p>
+            <h3 class="livre_article_texte_tittle">Pourquoi État d'urgence ?</h3>
+            <p class="livre_article_texte_content">
             Michael Cricton a écrit ce livre afin de dénoncer les problèmes concernant l'écologie,
             l'environnment, le climat et bien d'autres.
             Son but principal était de montrer au monde l'enjeu important qui viendrait à se produire dans les années
             futures notamment le réchauffement climatique
             </p>
-            <p>(voir article sur le réchauffement climatique).</p>
-            <p>
+            <p class="livre_article_texte_content">(voir article sur le réchauffement climatique).</p>
+            <p class="livre_article_texte_content">
             On pourrait aussi citer la montée des eaux ou encore plein d’autres phénomène qui vont ou se sont déjà produits à cause la négligence des gens dans le monde. C’est pour cela que l’on catégorise cela de combat, un combat pour sauver la planète.
             En appelant son roman État d’urgence, Michael Crichton voulait avant tout faire réagir ses lecteurs : leur montrer que le temps compte. Si vous lisez ses lignes c’est que vous avez réussi ou bien qu’il est trop tard.
             </p>
         </article>
         <article>
-            <h3>Extrait du livre,</h3>
-            <p>“- Restez là, fit-il en effleurant son bras dans l’obscurité. Elle attendit sans bouger. L’odeur de l’eau salée était forte ; elle percevait le murmure de l’eau.</p>
-            <p>
+            <h3 class="livre_article_texte_tittle">Extrait du livre,</h3>
+            <p class="livre_article_texte_content">“- Restez là, fit-il en effleurant son bras dans l’obscurité. Elle attendit sans bouger. L’odeur de l’eau salée était forte ; elle percevait le murmure de l’eau.</p>
+            <p class="livre_article_texte_content">
             Quand les lumières s’allumèrent, leur éclat se réfléchit sur la surface du réservoir long d’une cinquantaine de mètres et large de vingt. Il ressemblait à une grande piscine couverte, avec cette différence qu’il était entouré de tout un appareillage électronique.
             </p>
-            <p>et qu’une étrange machine se trouvait à l’extrémité du bassin.</p>
-            <p>	Jonathan Marshall revint, un sourire niais sur le visage.</p>
-            <p>- Qu’est-ce tu en penses ? lança-t-il en français, avec sa prononciation épouvantable.</p>
-            <p>- C’est magnifique, répondit la jeune femme en anglais.</p>
-            <p>Jonathan trouvait son accent exotique ; tout en elle lui paraissait exotique. Avec sa peau mate, ses pommettes hautes et ses cheveux de jais, elle aurait pu être mannequin. Et elle marchait comme un mannequin en jupe courte et talons aiguilles. Elle s’appelait Maria ; elle était eurasienne, de mère vietnamienne.</p>
-            <P>- Il n’y a personne d’autre ici ? reprit-elle en parcourant la salle du regard.</P>
-            <p>- Non, non. C’est dimanche : personne ne vient.</p>
-            <p>Jonathan Marshall avait vingt-quatre ans. Étudiant de troisième cycle en physique à Londres, il suivait un stage d’été au laboratoire de mécanique ondulatoire de L’Institut de la mer, dans la banlieue nord de Paris.</p>
-            <p>- Avec plaisir.</p>
-            <p>Marshall se dirigea vers le grand tableau de contrôle et mit en marche les pompes et les capteurs. à l’autre bout du bassin, les trente panneaux de la machine à vagues se mirent en place, l’un après l’autre.
+            <p class="livre_article_texte_content">et qu’une étrange machine se trouvait à l’extrémité du bassin.</p>
+            <p class="livre_article_texte_content">	Jonathan Marshall revint, un sourire niais sur le visage.</p>
+            <p class="livre_article_texte_content">- Qu’est-ce tu en penses ? lança-t-il en français, avec sa prononciation épouvantable.</p>
+            <p class="livre_article_texte_content">- C’est magnifique, répondit la jeune femme en anglais.</p>
+            <p class="livre_article_texte_content">Jonathan trouvait son accent exotique ; tout en elle lui paraissait exotique. Avec sa peau mate, ses pommettes hautes et ses cheveux de jais, elle aurait pu être mannequin. Et elle marchait comme un mannequin en jupe courte et talons aiguilles. Elle s’appelait Maria ; elle était eurasienne, de mère vietnamienne.</p>
+            <p class="livre_article_texte_content">- Il n’y a personne d’autre ici ? reprit-elle en parcourant la salle du regard.</p>
+            <p class="livre_article_texte_content">- Non, non. C’est dimanche : personne ne vient.</p>
+            <p class="livre_article_texte_content">Jonathan Marshall avait vingt-quatre ans. Étudiant de troisième cycle en physique à Londres, il suivait un stage d’été au laboratoire de mécanique ondulatoire de L’Institut de la mer, dans la banlieue nord de Paris.</p>
+            <p class="livre_article_texte_content">- Avec plaisir.</p>
+            <p class="livre_article_texte_content">Marshall se dirigea vers le grand tableau de contrôle et mit en marche les pompes et les capteurs. à l’autre bout du bassin, les trente panneaux de la machine à vagues se mirent en place, l’un après l’autre.
                 Il se retourna vers Marisa.
             </p>
-            <p>- C’est tellement compliqué, fit-elle en souriant.</p>
-            <p>Elle s’avança, vint se placer à coté de lui, devant le tableau de contrôle.</p>
-            <p>- Il y a des caméras qui filment ton travail ?</p>
-            <p>- Oui, au plafond et sur les côtés du réservoir. Elles conservent les images des vagues qui sont produites. II y a aussi des capteurs de pression qui enregistrent les paramètres de la vague.”</p>
+            <p class="livre_article_texte_content">- C’est tellement compliqué, fit-elle en souriant.</p>
+            <p class="livre_article_texte_content">Elle s’avança, vint se placer à coté de lui, devant le tableau de contrôle.</p>
+            <p class="livre_article_texte_content">- Il y a des caméras qui filment ton travail ?</p>
+            <p class="livre_article_texte_content">- Oui, au plafond et sur les côtés du réservoir. Elles conservent les images des vagues qui sont produites. II y a aussi des capteurs de pression qui enregistrent les paramètres de la vague.”</p>
         </article>
         <article>
-            <h3>Pour plus d'informations,</h3>
-            <p>Article regret "le réchauffement climatique" :</p>
-            <a href="/fr/regret_fr.html">Cliquez ici</a>
-            <p>État d'urgence, Michael Crichton :</p>
+            <h3 class="livre_article_texte_tittle">Pour plus d'informations,</h3>
+            <p class="livre_article_texte_content">Article regret "le réchauffement climatique" :</p>
+            <div class="livre_article_texte_content_center">
+            <a class="livre_article_texte_content_center" href="/fr/regret_fr.html">Cliquez ici</a>
+            </div>
+            <p class="livre_article_texte_content">État d'urgence, Michael Crichton :</p>
+            <div class="livre_article_texte_link">
             <a href="https://fr.wikipedia.org/wiki/%C3%89tat_d%27urgence_(roman)">https://fr.wikipedia.org/wiki/%C3%89tat_d%27urgence_(roman)</a>
+            </div>
         </article>
     </main>
     <footer>

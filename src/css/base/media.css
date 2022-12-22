@@ -96,3 +96,18 @@ button :hover {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+/* Livre FR */
+
+.livre_article_image_primary {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.livre_article_image_secondary {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+}
