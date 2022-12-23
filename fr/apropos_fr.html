@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <a class="home-header"href="../index.html">
-            <img src="../public/icone/home.svg" alt="Icône du bouton home">
+    <header class="header_fr_2">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="/index.html">
+                <img src="/public/icone/home.svg" alt="Icône du bouton home">
+            </a>
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_fr_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
+        </div>
+        <a class="language_header_fr" href="./en/index_en.html">
+            <img src="/public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
         </a>
-        <img class="menu-header" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
-        <a class="language-header"href="../en/index_en.html">
-            <img src="../public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
-        </a>
-        <img class="btb-header" src="../public/icone/BACK_TO_BACK.svg" alt="logo du site internet Back To Back">
+        <h2 class="btb_header_fr">Back To Back</h2>
+        
         <div class="element-header">
             <div class="element-header-image">
                 <img class="round-header" src="../public/icone/Round_face.svg" alt="Image Face round">
@@ -27,20 +32,36 @@
                 <h1 class="h1-header">À propos</h1>
             </div>
         </div>
+
+        <nav class="menu_fr">
+            <ul>
+                <li><a href="/fr/film_fr.html">> Top Gun</a></li>
+                <li><a href="/fr/livre_fr.html">> État d'urgence</a></li>
+                <li><a href="/fr/musique_fr.html">> LND</a></li>
+                <li><a href="/fr/lieu_fr.html">> Besançon</a></li>
+                <li><a href="/fr/espoir_fr.html">> Sauver la planète</a></li>
+                <li><a href="/fr/regret_fr.html">> Le réchauffement climatique</a></li>
+                <li><a href="/fr/glossaire_fr.html">> Glossaire</a></li>
+                <li><a href="/fr/autreprojets_fr.html">> Autre projets</a></li>
+                <li><a href="/fr/apropos_fr.html">> À propos</a></li>
+                <li><a href="/fr/contact_fr.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <img src="../public/img/Avatar_1.webp" alt="Avatar de l'auteur du site">
-        <p>Je me présente, je suis Gaspard, j’ai 17 ans et je suis étudiant au BUT MMI de Montbéliard.</p>
-        <p>Nous devions réaliser ce site internet pour notre projet individuel du 1er semestre, j’espère que celui-ci vous a plus !</p>
-        <p>Plus d’infos sur moi, je suis avant tout un passionné de jeux vidéo, j’adore jouer a différents jeux... J’aime aussi produire et réaliser des vidéos sur YouTube mais aussi faire des lives en direct sur Twitch.</p>
-        <p>Ma devise n’est autre que : “Mon objectif, vous faire découvrir ma passion”</p>
-        <p>Dans le futur, j’aimerai pourquoi pas fonder mon entreprise de création de contenus.</p>
-        <p>Enfin bref, c’est tout pour moi...</p>
-        <p>Pour encore et toujours plus d’infos sur moi, n’hésitez pas à me suivre sur les réseaux</p>
-        <a href="https://bit.ly/3BpvxD1" target="_blank">
-            <img src="../public/img/Mes_réseaux.webp" alt="Bouton pour me rejoindre sur mes réseaux">
+        <img class="avatar_image" src="../public/img/Avatar_1.webp" alt="Avatar de l'auteur du site">
+        <p class="app_article_texte_content">Je me présente, je suis Gaspard, j’ai 18 ans et je suis étudiant au BUT MMI de Montbéliard.</p>
+        <p class="app_article_texte_content">Nous devions réaliser ce site internet pour notre projet individuel du 1er semestre, j’espère que celui-ci vous a plus !</p>
+        <p class="app_article_texte_content">Plus d’infos sur moi, je suis avant tout un passionné de jeux vidéo, j’adore jouer a différents jeux... J’aime aussi produire et réaliser des vidéos sur YouTube mais aussi faire des lives en direct sur Twitch.</p>
+        <p class="app_article_texte_content">Ma devise n’est autre que : “Mon objectif, vous faire découvrir ma passion”</p>
+        <p class="app_article_texte_content">Dans le futur, j’aimerai pourquoi pas fonder mon entreprise de création de contenus.</p>
+        <p class="app_article_texte_content">Enfin bref, c’est tout pour moi...</p>
+        <p class="app_article_texte_content">Pour encore et toujours plus d’infos sur moi, n’hésitez pas à me suivre sur les réseaux</p>
+        <div class="social_button">
+        <a class="social_button" href="https://bit.ly/3BpvxD1" target="_blank">
+            <img class="social_button" src="../public/img/Mes_réseaux.webp" alt="Bouton pour me rejoindre sur mes réseaux">
         </a>
-
+        </div>
     </main>
     <footer>
         <img class="icone_btb_footer" src="/public/icone/BACK-TO-BACK_petit.svg" alt="logo Back To Back (en petit)">

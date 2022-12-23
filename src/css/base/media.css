@@ -134,3 +134,20 @@ button :hover {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+/* App FR =(A propos) */
+
+.avatar_image {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.social_button {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}

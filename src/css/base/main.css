@@ -392,3 +392,14 @@ main {
     text-align: center;
     margin-top: -5%;
 }
+
+/* App FR =(A propos) */
+
+.app_article_texte_content {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--gris-fonce);
+    margin-inline: 5%;
+    text-align: center;
+}

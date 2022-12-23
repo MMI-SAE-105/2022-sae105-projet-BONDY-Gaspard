@@ -71,6 +71,8 @@ header {
 .element-header-texte-1 {
     position: absolute;
     rotate: -6deg;
+    bottom: 47%;
+    right: 74%;
     font-size: 12px;
 }
 
