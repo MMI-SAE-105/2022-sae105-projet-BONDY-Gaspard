@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <a class="home-header"href="../index.html">
-            <img src="../public/icone/home.svg" alt="Icône du bouton home">
+    <header class="header_fr_2">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="/index.html">
+                <img src="/public/icone/home.svg" alt="Icône du bouton home">
+            </a>
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_fr_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
+        </div>
+        <a class="language_header_fr" href="./en/index_en.html">
+            <img src="/public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
         </a>
-        <img class="menu-header" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
-        <a class="language-header"href="../en/index_en.html">
-            <img src="../public/icone/Boutton_Language-fr.svg" alt="Bouton changement de langue FR->EN">
-        </a>
-        <img class="btb-header" src="../public/icone/BACK_TO_BACK.svg" alt="logo du site internet Back To Back">
+        <h2 class="btb_header_fr">Back To Back</h2>
+        
         <div class="element-header">
             <div class="element-header-image">
                 <img class="round-header" src="../public/icone/Round_face.svg" alt="Image Face round">
@@ -27,26 +32,49 @@
                 <h1 class="h1-header">Contact</h1>
             </div>
         </div>
+
+        <nav class="menu_fr">
+            <ul>
+                <li><a href="/fr/film_fr.html">> Top Gun</a></li>
+                <li><a href="/fr/livre_fr.html">> État d'urgence</a></li>
+                <li><a href="/fr/musique_fr.html">> LND</a></li>
+                <li><a href="/fr/lieu_fr.html">> Besançon</a></li>
+                <li><a href="/fr/espoir_fr.html">> Sauver la planète</a></li>
+                <li><a href="/fr/regret_fr.html">> Le réchauffement climatique</a></li>
+                <li><a href="/fr/glossaire_fr.html">> Glossaire</a></li>
+                <li><a href="/fr/autreprojets_fr.html">> Autre projets</a></li>
+                <li><a href="/fr/apropos_fr.html">> À propos</a></li>
+                <li><a href="/fr/contact_fr.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>Ci-dessous, vous pourrez retrouver un formulaire de contact. Veillez à rentrer vos informations de manière correcte, afin que nous puissions vous recontacter dans le futur.</p>
-              <div>
+        <p class="contact_article_intro">Ci-dessous, vous pourrez retrouver un formulaire de contact. Veillez à rentrer vos informations de manière correcte, afin que nous puissions vous recontacter dans le futur.</p>
+              <div class="contact_form_name">
+                <div class="contact_form_name">
                 <label for="last-name">Nom</label>
-                <input type="text" name="last-name" id="last-name" required>
+                </div>
+                <input class="contact_form_style" type="text" name="last-name" id="last-name" required>
               </div>
-              <div>
+              <div class="contact_form_name">
+                <div class="contact_form_name">
                 <label for="first-name">Prénom</label>
-                <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <input class="contact_form_style" type="text" name="first-name" id="first-name" required>
               </div>
-              <div>
+              <div class="contact_form_name">
+                <div class="contact_form_name">
                 <label for="objectmess">Objet</label>
-                <input type="text" name="objectmess" id="objectmess" required>
+                </div>
+                <input class="contact_form_style" type="text" name="objectmess" id="objectmess" required>
               </div>
-              <div>
+              <div class="contact_form_name">
+                <div class="contact_form_name">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="15" required></textarea>
+                </div>
+                <textarea class="contact_form_style" name="message" id="message" rows="15" required></textarea>
               </div>
-              <button type="submit">Envoyez</button>
+              <button class="contact_form_button" type="submit">Envoyez</button>
     </main>
     <footer>
         <img class="icone_btb_footer" src="/public/icone/BACK-TO-BACK_petit.svg" alt="logo Back To Back (en petit)">

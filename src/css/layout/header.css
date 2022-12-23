@@ -91,8 +91,8 @@ header {
 .element-header-texte-3 {
     position: absolute;
     rotate: -6deg;
-    bottom: 71px;
-    right: 270px;
+    bottom: 50%;
+    right: 76%;
     font-size: 13px;
 }
 

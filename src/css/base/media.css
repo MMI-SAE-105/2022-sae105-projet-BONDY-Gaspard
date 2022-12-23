@@ -151,3 +151,27 @@ button :hover {
     margin: auto;
     margin-top: 5%;
 }
+
+/* Contact FR */
+
+.contact_form_style {
+    background-color: #D9D9D9;
+    border-color: var(--rouge-clair);
+    margin-inline: 5%;
+    display: flex;
+    margin: auto;
+    margin-right: 30%;
+    margin-left: 15%;
+}
+
+.contact_form_button {
+    background-color: var(--rouge-clair);
+    border-color: var(--rouge-clair);
+    color: var(--blanc);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: 5%;
+    cursor: pointer;
+}
