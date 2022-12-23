@@ -175,3 +175,39 @@ button :hover {
     margin-top: 5%;
     cursor: pointer;
 }
+
+/* HOME EN*/
+
+.boutton-left-article-en {
+    background-color: var(--rouge-clair);
+    text-align: center;
+    color: #FFFDFD;
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: var(--rouge-fonce-fonce);
+    cursor: pointer;
+    height: 25px;
+    box-shadow: 0px 1.5px 5px black;
+    margin-left: 50%;
+    margin-top: 27%;
+    margin-bottom: 15%;
+}
+
+.boutton-right-article-en {
+    background-color: var(--rouge-clair);
+    text-align: center;
+    color: #FFFDFD;
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: var(--rouge-fonce-fonce);
+    cursor: pointer;
+    height: 25px;
+    box-shadow: 0px 1.5px 5px black;
+    margin-left: 22%;
+    margin-top: 32%;
+    margin-bottom: 15%;
+}

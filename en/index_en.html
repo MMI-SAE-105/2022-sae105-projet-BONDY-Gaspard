@@ -1,71 +1,134 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="FR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site web du projet Back To Back">
     <title>Back To Back - Home</title>
+    <link rel="icon" href="/public/img/favicon.webp">
     <link rel="stylesheet" href="/src/css/pages/style.css" type="text/css"/>
 </head>
-<body>
-    <header class="header_en">
-        <div class="element_header_en">
-            <a class="home_header_en" href="/en/index_en.html">
-                <img src="../public/icone/home.svg" alt="Icône du bouton home">
+<body class=" ">
+    <header class="header_fr">
+        <div class="element_header_fr">
+            <a class="home_header_fr" href="index_en.html">
+                <img src="../public/icone/home.svg" alt="Home button icon">
             </a>
-            <img class="menu_header_en" src="../public/icone/bouton_menu.svg" alt="Icône du bouton menu">
+            <div class="nav_toogle" onclick="document.documentElement.classList.toggle('menu_en_open')">
+                <div class="nav_toogle_bar"></div>
+            </div>
         </div>
-        <a class="language_header_en" href="/index.html">
-            <img src="../public/icone/Boutton_Language_en.svg" alt="Bouton changement de langue EN->FR">
+        <a class="language_header_fr" href="../index.html">
+            <img src="../public/icone/Boutton_Language_en.svg" alt="Language change button EN->FR">
         </a>
-        <h2 class="btb_header_en">Back To Back</h2>
+        <h2 class="btb_header_fr">Back To Back</h2>
+
+        
+        <nav class="menu_en">
+            <ul>
+                <li><a href="/en/movie_en.html">> Top Gun</a></li>
+                <li><a href="/en/book_en.html">> State of emergency</a></li>
+                <li><a href="/en/music_en.html">> LND</a></li>
+                <li><a href="/en/location_en.html">> Besançon</a></li>
+                <li><a href="/en/hope_en.html">> Save the planet</a></li>
+                <li><a href="/en/regret_en.html">> The Global warming</a></li>
+                <li><a href="/en/glossary_en.html">> Glossary</a></li>
+                <li><a href="/en/otherprojects_en.html">> Other projects</a></li>
+                <li><a href="/en/about_en.html">> About</a></li>
+                <li><a href="/en/contact_en.html">> Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main></main>
+    <main>
+        <p class="intro-accueil-fr">Want to know what it was like in our time in 2022? Well, this is the site for you! Find out how the fights in the world were perceived at the time. If you are reading these lines, it means that you have won or not...</p>
+            
+        <article>
+                <img class="article-right-accueil-fr" src="../public/img/Rectangle_3_5.webp" alt="Image of article 1: Top Gun">
+                <h3 class="texte-article-right-accueil-fr">Top Gun, a fight for our world</h3>
+                <a href="/en/movie_en.html">
+                <button class="boutton-right-article-en">Read the article</button>
+                </a>
+        </article>
+        <article>
+            <img class="article-left-accueil-fr" src="../public/img/Rectangle_3_4.webp" alt="Image of Article 2: State of emergency">
+                <h3 class="texte-article-left-accueil-fr">State of emergency, could this story become a reality?</h3>
+                <a href="/en/book_en.html">
+                <button class="boutton-left-article-en">Read the article</button>
+                </a>
+        </article>
+        <article>
+                <img class="article-right-accueil-fr" src="../public/img/Rectangle_3_3.webp" alt="Image from article 3: Legends Never Die">
+                <h3 class="texte-article-right-accueil-fr">LND, true legends never die</h3>
+                <a href="/en/music_en.html">
+                    <button class="boutton-right-article-en">Read the article</button>
+                </a>
+        </article>
+        <article>
+            <img class="article-left-accueil-fr" src="../public/img/Rectangle_3_2.webp" alt="Image of article 4: Besançon">
+                <h3 class="texte-article-left-accueil-fr">Besançon, the city at the heart of evolution</h3>
+                <a href="/en/location_en.html">
+                    <button class="boutton-left-article-en">Read the article</button>
+                </a>
+        </article>
+        <article>
+                <img class="article-right-accueil-fr-2" src="../public/img/Rectangle_3_1.webp" alt="Image from article 5: Save the planet">
+                <h3 class="texte-article-right-accueil-fr">Saving the Planet becoming an important issue?</h3>
+                <a href="/en/hope_en.html">
+                    <button class="boutton-right-article-fr">Read the article</button>
+                </a>
+        </article>
+        <article>
+            <img class="article-left-accueil-fr" src="../public/img/Rectangle_3.webp" alt="Image of article 6: Global warming">
+            <h3 class="texte-article-left-accueil-fr">Global warming, we must act! and now!</h3>
+            <a href="/en/regret_en.html">
+                <button class="boutton-left-article-en">Read the article</button>
+            </a>
+        </article>
+    </main>
     <footer>
+        <img class="icone_btb_footer" src="../public/icone/BACK-TO-BACK_petit.svg" alt="logo Back To Back (en petit)">
         
-        <img class="icone_btb_footer" src="./public/icone/BACK-TO-BACK_petit.svg" alt="logo Back To Back (en petit)">
-        
-        <div class="h5-footer">
+        <div class="h5_footer">
         <p>Gaspard BONDY</p>
         <p>Groupe A1</p>
         </div>
         
-        <h4 class="h4-footer">MENU</h4>
+        <h4 class="h4_footer">MENU</h4>
         
-        <ul class="liens-footer">
-        <li><a class="liens-footer" href="/index.html">ACCUEIL</a></li>
-        <li><a class="liens-footer" href="/fr/glossaire_fr.html">GLOSSAIRE</a></li>
-        <li><a class="liens-footer" href="/fr/autreprojets_fr.html">AUTRE PROJETS</a></li>
-        <li><a class="liens-footer" href="/fr/apropos_fr.html">À PROPOS</a></li>
-        <li><a class="liens-footer" href="/fr/contact_fr.html">CONTACT</a></li>
+        <ul class="liens_footer">
+        <li><a class="liens_footer" href="/en/index_en.html">HOME</a></li>
+        <li><a class="liens_footer" href="/en/glossary_en.html">GLOSSARY</a></li>
+        <li><a class="liens_footer" href="/en/otherprojects_en.html">OTHER PROJECTS</a></li>
+        <li><a class="liens_footer" href="/en/about_en.html">ABOUT</a></li>
+        <li><a class="liens_footer" href="/en/contact_en.html">CONTACT</a></li>
         </ul>
 
-        <h4 class="h4-footer-contact">CONTACT</h4>
+        <h4 class="h4_footer_contact">CONTACT</h4>
 
-        <a class="mailto-footer" href="mailto:gaspardbondy@hotmail.fr">gaspardbondy@hotmail.fr</a>
+        <a class="mailto_footer" href="mailto:gaspardbondy@hotmail.fr">gaspardbondy@hotmail.fr</a>
 
-        <h4 class="h4-footer-suivre">NOUS SUIVRE</h4>
+        <h4 class="h4_footer_suivre">FOLLOW US</h4>
 
-        <div class="reseaux-footer">
+        <div class="reseaux_footer">
         <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
-            <img src="./public/icone/ytb.svg" alt="Logo YouTube">
+            <img src="/public/icone/ytb.svg" alt="YouTube logo">
         </a>
         <a href="https://twitter.com/GaspardTex" target="_blank">
-            <img src="./public/icone/twitter.svg" alt="Logo Twitter">
+            <img src="/public/icone/twitter.svg" alt="Twitter logo">
         </a>
         <a href="https://www.twitch.tv/gaspardtex" target="_blank">
-            <img src="./public/icone/twitch.svg" alt="Logo Twitch">
+            <img src="/public/icone/twitch.svg" alt="Twitch logo">
         </a>
         <a href="https://www.instagram.com/gaspardtex/?hl=fr" target="_blank">
-            <img src="./public/icone/insta.svg" alt="Logo Instagram">
+            <img src="/public/icone/insta.svg" alt="Instagram logo">
         </a>
         </div>
 
-        <p class="p-footer">Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de montbéliard</p>
+        <p class="p_footer_en">Project carried out as part of an educational exercise in the MMI department of Montbéliard</p>
     
         <a class="icone_mmi_footer" href="http://mmimontbeliard.com/" target="_blank">
-            <img src="./public/icone/MMI.svg" alt="Logo MMI de Montbéliard">
+            <img src="/public/icone/MMI.svg" alt="Logo MMI of Montbéliard">
         </a>
     </footer>
 </body>

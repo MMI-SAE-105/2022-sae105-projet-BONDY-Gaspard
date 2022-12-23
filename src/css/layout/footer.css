@@ -95,3 +95,16 @@ footer {
     padding-bottom: 10%;
     margin-left: 40%;
 }
+
+/* Footer EN */
+
+.p_footer_en {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--blanc);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
