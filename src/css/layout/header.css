@@ -229,3 +229,16 @@ header {
     margin-left: 155%;
     margin-bottom: -10%;
 }
+
+/* The Global Warming EN (Regret)*/
+
+.h1-header-regret {
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    margin-left: 180%;
+    margin-bottom: -15%;
+}
