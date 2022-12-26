@@ -208,12 +208,24 @@ header {
 
 /* State of emergency EN (Book)*/
 
-.h1-header-en {
+.h1-header-en-book {
     color: #FFFFFF;
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     text-align: center;
     display: flex;
     margin-left: 140%;
+    margin-bottom: -10%;
+}
+
+/* Save the planet EN (Hope)*/
+
+.h1-header-hope {
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    margin-left: 155%;
     margin-bottom: -10%;
 }
