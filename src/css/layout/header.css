@@ -255,3 +255,16 @@ header {
     margin-left: 157%;
     margin-bottom: -13%;
 }
+
+/* Other Projects EN */
+
+.h1-header-other {
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    margin-left: 145%;
+    margin-bottom: -13%;  
+}
