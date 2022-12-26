@@ -268,3 +268,16 @@ header {
     margin-left: 145%;
     margin-bottom: -13%;  
 }
+
+/* About EN */
+
+.h1-header-about {
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    margin-left: 157%;
+    margin-bottom: -5%;   
+}
