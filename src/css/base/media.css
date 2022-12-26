@@ -211,3 +211,17 @@ button :hover {
     margin-top: 32%;
     margin-bottom: 15%;
 }
+
+/* Contact EN */
+
+.contact_form_button_en {
+    background-color: var(--rouge-clair);
+    border-color: var(--rouge-clair);
+    color: var(--blanc);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 47%;
+    margin-top: 5%;
+    cursor: pointer;
+}
